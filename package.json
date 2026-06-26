@@ -1,0 +1,12 @@
+{
+  "name": "armory-ai-landing",
+  "version": "1.0.0",
+  "description": "Next-gen AI platform landing page for FrontEnd Battle Round 1",
+  "main": "script.js",
+  "scripts": {
+    "dev": "http-server -p 3000 ."
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

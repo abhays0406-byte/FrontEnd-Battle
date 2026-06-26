@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armory AI | Next-Gen Enterprise Data Automation & Custom Agents</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Deploy custom enterprise agents and automate complex workflows. Scale your intelligence with Armory today. A premium, high-converting, responsive AI automation platform.">
+  <meta name="keywords" content="AI, Data Automation, Custom Agents, Neural Engines, LLM Workflows, Enterprise AI">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Armory AI | Next-Gen Enterprise Data Automation">
+  <meta property="og:description" content="Deploy custom enterprise agents and automate complex workflows. Scale your intelligence with Armory today.">
+  <meta property="og:image" content="https://armory.ai/assets/og-image.jpg">
+  <meta property="og:url" content="https://armory.ai/">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Armory AI | Next-Gen Enterprise Data Automation">
+  <meta property="twitter:description" content="Deploy custom enterprise agents and automate complex workflows. Scale your intelligence with Armory today.">
+  
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Premium Preloader Overlay -->
+  <div id="loader" class="loader-overlay">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <svg class="bolt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+        </svg>
+        <span class="logo-text">armory</span>
+      </div>
+      <div class="loader-bar-bg">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navbar -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="#" class="logo" id="nav-logo">
+        <svg class="bolt-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+        </svg>
+        <span class="logo-text">armory</span>
+      </a>
+      
+      <div class="nav-menu" id="nav-menu">
+        <a href="#features" class="nav-link">AI Strategy</a>
+        <a href="#workflow" class="nav-link">Custom Agents</a>
+        <a href="#telemetry" class="nav-link">Process Automation</a>
+        <a href="#pricing" class="nav-link">Data Intelligence</a>
+      </div>
+      
+      <div class="nav-actions">
+        <!-- Search Trigger - Integrates search.svg -->
+        <button class="icon-btn" id="search-trigger" aria-label="Open search documentation">
+          <img src="SVGs/search.svg" alt="Search icon" class="svg-icon-sm">
+        </button>
+        
+        <a href="#pricing" class="btn btn-primary btn-sm">Build A Workflow</a>
+        
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Global Search Overlay Modal - Integrates x-mark.svg -->
+  <div class="search-overlay" id="search-overlay" aria-modal="true" role="dialog">
+    <div class="search-modal bg-glass">
+      <div class="search-modal-header">
+        <div class="search-input-wrapper">
+          <img src="SVGs/search.svg" alt="" class="svg-icon-sm">
+          <input type="text" placeholder="Search documentation, components, or agents..." id="search-input" autofocus>
+        </div>
+        <button class="close-btn" id="search-close" aria-label="Close search">
+          <img src="SVGs/x-mark.svg" alt="Close icon" class="svg-icon-sm">
+        </button>
+      </div>
+      <div class="search-results">
+        <div class="search-results-section">
+          <h4>SUGGESTIONS</h4>
+          <a href="#pricing" class="search-result-item">✦ Matrix-Driven Pricing Table</a>
+          <a href="#bento-accordion-sec" class="search-result-item">✦ Bento Grid-to-Accordion Wrapper</a>
+          <a href="#telemetry" class="search-result-item">✦ Live Telemetry Metrics Performance</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-text-content">
+          <h1 class="hero-title">Power your <br>future with AI</h1>
+          <p class="hero-subtitle">Deploy custom enterprise agents and automate complex workflows. Scale your intelligence with Armory today.</p>
+          <a href="#workflow" class="btn btn-primary btn-lg">
+            Build A Workflow
+            <svg class="icon-right" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="matrix-terrain" id="matrix-terrain">
+            <!-- Programmatically populated via JS for custom 3D grid layout -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Logo Marquee -->
+    <section class="marquee-section">
+      <div class="marquee-wrapper">
+        <div class="marquee-content">
+          <div class="marquee-item"><span class="logo-text-muted">✦ aetna</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ cigna</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ Anthem</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ CVS pharmacy</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ UnitedHealthcare</span></div>
+          <!-- Duplicate for seamless scroll -->
+          <div class="marquee-item"><span class="logo-text-muted">✦ aetna</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ cigna</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ Anthem</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ CVS pharmacy</span></div>
+          <div class="marquee-item"><span class="logo-text-muted">✦ UnitedHealthcare</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro Text Section -->
+    <section class="intro-section">
+      <div class="section-container text-center">
+        <h2 class="intro-heading">
+          Integrate with the world's most powerful neural engines. Seamlessly connect your custom data to GPT-4, Claude 3, and Perplexity for unmatched precision. Build agents that don't just process, they <span class="text-highlight">understand</span>.
+        </h2>
+        <p class="intro-subtext">Unlock the full potential of LLM-native workflows. Our infrastructure ensures low latency and high-fidelity output for every request.</p>
+      </div>
+    </section>
+
+    <!-- Bento Section #1 (Core Capabilities) -->
+    <section class="bento-capabilities" id="features">
+      <div class="section-container">
+        <!-- SEO Semantic Heading -->
+        <div class="sr-only"><h2>Armory Core Capabilities</h2></div>
+        
+        <div class="bento-grid-4">
+          <div class="bento-card bg-glass">
+            <div class="card-icon-wrapper">
+              <img src="SVGs/cube-16-solid.svg" alt="Secure Guard cube icon" class="svg-icon">
+            </div>
+            <h3 class="card-title">Secure Guard</h3>
+            <p class="card-text">We fortify all AI deployments with robust security protocols. Our team ensures every model adheres to strict data privacy standards.</p>
+          </div>
+
+          <div class="bento-card bg-glass">
+            <div class="card-icon-wrapper">
+              <img src="SVGs/cog-8-tooth.svg" alt="Agent Build gear icon" class="svg-icon">
+            </div>
+            <h3 class="card-title">Agent Build</h3>
+            <p class="card-text">Tailored AI Agents designed for your specific needs. We develop custom logic and workflows that integrate deeply with your existing tools.</p>
+          </div>
+
+          <div class="bento-card bg-glass">
+            <div class="card-icon-wrapper">
+              <img src="SVGs/arrow-path.svg" alt="Cloud Scale sync icon" class="svg-icon">
+            </div>
+            <h3 class="card-title">Cloud Scale</h3>
+            <p class="card-text">Infrastructure optimization for high-traffic AI apps. We ensure your systems remain fast, responsive, and ready for any level of demand.</p>
+          </div>
+
+          <div class="bento-card bg-glass">
+            <div class="card-icon-wrapper">
+              <img src="SVGs/chart-pie.svg" alt="Data Mining pie chart icon" class="svg-icon">
+            </div>
+            <h3 class="card-title">Data Mining</h3>
+            <p class="card-text">Transform raw information into actionable intelligence. We build the pipelines and vector stores that power your organization's future.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Section - Integrates arrow-trending-up.svg -->
+    <section class="metrics-section">
+      <div class="section-container">
+        <div class="metrics-header text-center">
+          <span class="section-subtitle">/// STATISTICS</span>
+          <h2 class="section-title">
+            Quantifiable impact across every deployment.
+            <img src="SVGs/arrow-trending-up.svg" alt="Trending upward chart icon" class="svg-inline-title">
+          </h2>
+          <p class="section-desc max-w-xl mx-auto mb-6">We measure success by the speed and scale of your neural ops. Performance benchmarks updated dynamically.</p>
+          <a href="#pricing" class="btn btn-secondary btn-sm">
+            View Report
+            <svg class="icon-right" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <span class="metric-value" id="metric-latency" data-target="12">11ms</span>
+            <span class="metric-label">Average latency for real-time inference.</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value" id="metric-speed" data-target="10">9x</span>
+            <span class="metric-label">Increase in manual task processing speed.</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value" id="metric-uptime" data-target="99">87%</span>
+            <span class="metric-label">Uptime for critical agent infrastructure.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Play Block -->
+    <section class="video-section">
+      <div class="section-container">
+        <div class="video-card bg-glass">
+          <div class="video-overlay-elements">
+            <button class="play-btn" aria-label="Play video demo">
+              <span class="play-triangle"></span>
+            </button>
+            <span class="video-duration">2 Minutes Watch</span>
+            <span class="play-label">PLAY VIDEO</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies Slider - Integrates chevron-left, chevron-right, link-solid -->
+    <section class="cases-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div>
+            <span class="section-subtitle">/// CASE STUDIES</span>
+            <h2 class="section-title">Proven neural solutions</h2>
+            <p class="section-desc">We partner with industry leaders to deploy bespoke AI Agents that solve complex operational hurdles and drive measurable growth.</p>
+          </div>
+          <div class="slider-controls">
+            <button class="control-btn" id="slider-prev" aria-label="Previous slide">
+              <img src="SVGs/chevron-left.svg" alt="Left arrow icon" class="svg-icon">
+            </button>
+            <button class="control-btn" id="slider-next" aria-label="Next slide">
+              <img src="SVGs/chevron-right.svg" alt="Right arrow icon" class="svg-icon">
+            </button>
+          </div>
+        </div>
+
+        <div class="slider-wrapper">
+          <div class="slider-track" id="slider-track">
+            <div class="slide-card bg-glass active">
+              <span class="slide-year">// 2026</span>
+              <h3 class="slide-title">Cigna Smart Health Systems</h3>
+              <p class="slide-text">Revolutionizing patient care through predictive analytics and seamless AI-driven diagnostic integration tools.</p>
+              <a href="#" class="slide-link" aria-label="Read Cigna case study link">
+                <img src="SVGs/link-solid.svg" alt="Link icon" class="svg-icon-sm">
+              </a>
+            </div>
+
+            <div class="slide-card bg-glass">
+              <span class="slide-year">// 2026</span>
+              <h3 class="slide-title">Aetna Health Data Ecosystem</h3>
+              <p class="slide-text">We automated Aetna's member data management using secure AI to provide personalized care and clinical insights.</p>
+              <a href="#" class="slide-link" aria-label="Read Aetna case study link">
+                <img src="SVGs/link-solid.svg" alt="Link icon" class="svg-icon-sm">
+              </a>
+            </div>
+
+            <div class="slide-card bg-glass">
+              <span class="slide-year">// 2026</span>
+              <h3 class="slide-title">Anthem Neural Care Network</h3>
+              <p class="slide-text">We deployed a custom LLM to automate Anthem's provider relations, reducing ticket latency by eighty-five percent.</p>
+              <a href="#" class="slide-link" aria-label="Read Anthem case study link">
+                <img src="SVGs/link-solid.svg" alt="Link icon" class="svg-icon-sm">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-8">
+          <a href="#" class="btn btn-secondary btn-sm">
+            More Projects
+            <svg class="icon-right" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Canvas Mockup -->
+    <section class="canvas-section" id="workflow">
+      <div class="section-container">
+        <div class="text-center mb-12">
+          <span class="section-subtitle">/// OUR PRODUCT</span>
+          <h2 class="section-title">Build logic at scale</h2>
+          <p class="section-desc max-w-xl mx-auto">Design, deploy, and manage sophisticated AI workflows through an intuitive visual interface. No complex coding—just pure logic.</p>
+        </div>
+
+        <!-- Node Graph Builder Mockup -->
+        <div class="workflow-canvas bg-glass">
+          <div class="canvas-grid-bg"></div>
+          <div class="canvas-nodes-container" id="nodes-container">
+            
+            <div class="canvas-node node-trigger animate-hover" style="top: 15%; left: 8%;">
+              <div class="node-header">
+                <span class="node-tag">TRIGGER</span>
+                <span class="node-name">Email Trigger (IMAP)</span>
+              </div>
+              <div class="node-body">
+                <span class="node-desc">Manual</span>
+              </div>
+              <div class="node-connector connector-right"></div>
+            </div>
+
+            <div class="canvas-node node-action animate-hover" style="top: 15%; left: 35%;">
+              <div class="node-header">
+                <span class="node-tag">ACTION</span>
+                <span class="node-name">Edit Fields</span>
+              </div>
+              <div class="node-body">
+                <span class="node-desc">Manual</span>
+              </div>
+              <div class="node-connector connector-left"></div>
+              <div class="node-connector connector-right"></div>
+            </div>
+
+            <div class="canvas-node node-agent animate-hover" style="top: 15%; left: 62%;">
+              <div class="node-header">
+                <span class="node-tag">AGENT</span>
+                <span class="node-name">AI Agent</span>
+              </div>
+              <div class="node-body">
+                <span class="node-desc">Tools Agent</span>
+              </div>
+              <div class="node-connector connector-left"></div>
+              <div class="node-connector connector-right"></div>
+            </div>
+
+            <div class="canvas-node node-action animate-hover" style="top: 15%; left: 85%;">
+              <div class="node-header">
+                <span class="node-tag">ACTION</span>
+                <span class="node-name">Code</span>
+              </div>
+              <div class="node-body">
+                <span class="node-desc">JS Script</span>
+              </div>
+              <div class="node-connector connector-left"></div>
+              <div class="node-connector connector-right"></div>
+            </div>
+
+            <!-- Dynamic connections lines rendered via CSS/relative layouts -->
+            <svg class="nodes-svg-layer">
+              <path d="M 28% 28% L 35% 28%" stroke="var(--mystic-mint)" stroke-width="2" fill="none" stroke-dasharray="4 4" />
+              <path d="M 55% 28% L 62% 28%" stroke="var(--mystic-mint)" stroke-width="2" fill="none" />
+              <path d="M 80% 28% L 85% 28%" stroke="var(--mystic-mint)" stroke-width="2" fill="none" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bento-to-Accordion Wrapper with State Persistence (Feature 2) -->
+    <section class="bento-accordion-features-section" id="bento-accordion-sec">
+      <div class="section-container">
+        <!-- SEO Semantic Heading -->
+        <div class="sr-only"><h2>Advanced Agent Architecture</h2></div>
+        
+        <div class="features-wrapper-container">
+          <!-- Desktop Bento Grid (Shown only on Desktop) -->
+          <div class="bento-grid-wrapper" id="desktop-bento-grid">
+            <div class="bento-node-card active" data-index="0">
+              <div class="bento-node-icon">
+                <img src="SVGs/cube-16-solid.svg" alt="Cube solid" class="svg-icon">
+              </div>
+              <h3 class="bento-node-title">Infinite Visual Canvas</h3>
+              <p class="bento-node-text">Map out multi-step agent behaviors on a high-precision grid. Drag and drop triggers, logic gates, and actions to craft custom paths.</p>
+            </div>
+
+            <div class="bento-node-card" data-index="1">
+              <div class="bento-node-icon">
+                <img src="SVGs/cog-8-tooth.svg" alt="Gear solid" class="svg-icon">
+              </div>
+              <h3 class="bento-node-title">Autonomous Execution</h3>
+              <p class="bento-node-text">Run complex decision trees without manual intervention. Our engine handles conditional branching and error recovery automatically.</p>
+            </div>
+
+            <!-- 3D Visualization Card (Center of Bento) -->
+            <div class="bento-node-visual-card">
+              <div class="wireframe-container">
+                <div class="wireframe-sphere" id="wireframe-sphere"></div>
+              </div>
+            </div>
+
+            <div class="bento-node-card" data-index="2">
+              <div class="bento-node-icon">
+                <img src="SVGs/arrow-path.svg" alt="Sync solid" class="svg-icon">
+              </div>
+              <h3 class="bento-node-title">End-to-End Encryption</h3>
+              <p class="bento-node-text">Every node and data transfer is shielded by industrial-grade security. Maintain total control over your organizational data flow.</p>
+            </div>
+
+            <div class="bento-node-card" data-index="3">
+              <div class="bento-node-icon">
+                <img src="SVGs/chart-pie.svg" alt="Chart solid" class="svg-icon">
+              </div>
+              <h3 class="bento-node-title">Production-Ready Stack</h3>
+              <p class="bento-node-text">Connect core business platforms and internal services through secure, ready integrations that scale dynamically with your volume.</p>
+            </div>
+          </div>
+
+          <!-- Mobile Accordion List (Shown only on Mobile) - Integrates chevron-down.svg -->
+          <div class="mobile-accordion-list" id="mobile-accordion-list">
+            <div class="accordion-item" data-index="0">
+              <button class="accordion-header" aria-expanded="false">
+                <div class="accordion-header-left">
+                  <img src="SVGs/cube-16-solid.svg" alt="" class="svg-icon-sm">
+                  <span>Infinite Visual Canvas</span>
+                </div>
+                <img src="SVGs/chevron-down.svg" alt="Arrow expand icon" class="accordion-chevron">
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  <p>Map out multi-step agent behaviors on a high-precision grid. Drag and drop triggers, logic gates, and actions to craft custom paths.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-index="1">
+              <button class="accordion-header" aria-expanded="false">
+                <div class="accordion-header-left">
+                  <img src="SVGs/cog-8-tooth.svg" alt="" class="svg-icon-sm">
+                  <span>Autonomous Execution</span>
+                </div>
+                <img src="SVGs/chevron-down.svg" alt="Arrow expand icon" class="accordion-chevron">
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  <p>Run complex decision trees without manual intervention. Our engine handles conditional branching and error recovery automatically.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-index="2">
+              <button class="accordion-header" aria-expanded="false">
+                <div class="accordion-header-left">
+                  <img src="SVGs/arrow-path.svg" alt="" class="svg-icon-sm">
+                  <span>End-to-End Encryption</span>
+                </div>
+                <img src="SVGs/chevron-down.svg" alt="Arrow expand icon" class="accordion-chevron">
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  <p>Every node and data transfer is shielded by industrial-grade security. Maintain total control over your organizational data flow.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item" data-index="3">
+              <button class="accordion-header" aria-expanded="false">
+                <div class="accordion-header-left">
+                  <img src="SVGs/chart-pie.svg" alt="" class="svg-icon-sm">
+                  <span>Production-Ready Stack</span>
+                </div>
+                <img src="SVGs/chevron-down.svg" alt="Arrow expand icon" class="accordion-chevron">
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  <p>Connect core business platforms and internal services through secure, ready integrations that scale dynamically with your volume.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Telemetry Section -->
+    <section class="telemetry-section" id="telemetry">
+      <div class="section-container">
+        <div class="telemetry-header">
+          <span class="section-subtitle">/// PRODUCT STATISTICS</span>
+          <h2 class="section-title">Optimized for performance</h2>
+          <p class="section-desc">Monitor every neural pulse in real-time. Armory provides deep telemetry into agent accuracy, server latency, and token efficiency.</p>
+        </div>
+
+        <div class="telemetry-dashboard bg-glass">
+          <div class="dashboard-grid">
+            
+            <div class="dashboard-card card-load">
+              <div class="card-stat-header">
+                <span class="stat-name">System Load</span>
+                <span class="stat-percentage" id="telemetry-load">98.7%</span>
+              </div>
+              <span class="stat-desc">Active neural processing</span>
+              <div class="system-stats-bar-grid">
+                <div class="mini-stat-box">
+                  <span class="mini-val">99%</span>
+                  <span class="mini-lbl">CACHE</span>
+                </div>
+                <div class="mini-stat-box">
+                  <span class="mini-val">6M</span>
+                  <span class="mini-lbl">UPTIME</span>
+                </div>
+                <div class="mini-stat-box-large">
+                  <span class="mini-val">15</span>
+                  <span class="mini-lbl">Core Systems</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dashboard-card card-sla">
+              <div class="card-stat-header">
+                <span class="stat-name">SLA Response</span>
+                <span class="stat-percentage" id="telemetry-sla">99.99%</span>
+              </div>
+              <span class="stat-desc">Global uptime monitoring</span>
+              
+              <!-- Custom Telemetry Bar Chart -->
+              <div class="bar-chart-container" id="bar-chart">
+                <div class="chart-bar" style="height: 60%;"></div>
+                <div class="chart-bar" style="height: 75%;"></div>
+                <div class="chart-bar" style="height: 80%;"></div>
+                <div class="chart-bar" style="height: 50%;"></div>
+                <div class="chart-bar active" style="height: 95%;">
+                  <span class="bar-badge">99.99%</span>
+                </div>
+                <div class="chart-bar" style="height: 85%;"></div>
+                <div class="chart-bar" style="height: 70%;"></div>
+                <div class="chart-bar" style="height: 78%;"></div>
+                <div class="chart-bar" style="height: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="dashboard-card card-tokens">
+              <div class="card-stat-header">
+                <span class="stat-name">Token Usage</span>
+                <span class="stat-percentage" id="telemetry-tokens">8.4M</span>
+              </div>
+              <span class="stat-desc">Monthly volume throughput</span>
+              <div class="token-usage-boxes">
+                <div class="usage-box">
+                  <span class="usage-num">162</span>
+                  <span class="usage-lbl">TOTAL QUERIES</span>
+                </div>
+                <div class="usage-box">
+                  <span class="usage-num">345</span>
+                  <span class="usage-lbl">ACTIVE NODES</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dashboard-card card-growth">
+              <div class="card-stat-header">
+                <span class="stat-name">Growth Vector</span>
+                <span class="stat-percentage">99.98%</span>
+              </div>
+              <span class="stat-desc">Efficiency gains over 30 days</span>
+              <div class="growth-chart">
+                <div class="growth-val">82% <span class="growth-sub text-highlight">NET GROWTH</span></div>
+                <svg class="wavy-line-svg" viewBox="0 0 300 80" aria-label="Wavy data vector path line">
+                  <path d="M 0 65 Q 40 40 80 50 T 160 30 T 240 20 T 300 10" fill="none" stroke="var(--forsythia)" stroke-width="3" />
+                  <path d="M 0 65 Q 40 40 80 50 T 160 30 T 240 20 T 300 10 L 300 80 L 0 80 Z" fill="url(#grad)" opacity="0.1" />
+                  <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="var(--forsythia)" />
+                      <stop offset="100%" stop-color="transparent" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="growth-footnote">Optimizing neural weights for output.</div>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="text-center mt-8">
+            <button class="btn btn-primary btn-sm">Request Demo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section (Feature 1 - Matrix Driven & State Isolated) -->
+    <section class="pricing-section" id="pricing">
+      <div class="section-container">
+        
+        <div class="pricing-header text-center mb-12">
+          <span class="section-subtitle">/// SUBSCRIPTIONS</span>
+          <h2 class="section-title">Matrix-Driven Pricing</h2>
+          <p class="section-desc max-w-xl mx-auto">Scale your AI deployment effortlessly. Transparent plans with performance-isolated configurations.</p>
+          
+          <!-- Pricing Controls Interface -->
+          <div class="pricing-controls bg-glass">
+            <!-- Billing Cycle Switcher Toggle -->
+            <div class="billing-cycle-switcher">
+              <span class="toggle-label active" id="label-monthly">Monthly</span>
+              <button class="switch-toggle" id="billing-cycle-toggle" aria-label="Toggle annual billing cycle">
+                <span class="switch-handle"></span>
+              </button>
+              <span class="toggle-label" id="label-annual">Annual <span class="discount-badge">Save 20%</span></span>
+            </div>
+            
+            <!-- Performance-Isolated Currency Dropdown Switcher -->
+            <div class="currency-selector-wrapper">
+              <label for="currency-selector" class="sr-only">Select Currency</label>
+              <select id="currency-selector" class="currency-dropdown bg-glass">
+                <option value="USD">USD ($)</option>
+                <option value="EUR">EUR (€)</option>
+                <option value="INR">INR (₹)</option>
+              </select>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 3 Tier Pricing Cards Grid -->
+        <div class="pricing-grid">
+          
+          <div class="pricing-card bg-glass">
+            <h3 class="tier-name">Starter Plan</h3>
+            <p class="tier-desc">Perfect for testing workflows and deploying basic agents.</p>
+            <div class="price-display">
+              <span class="price-symbol" id="price-starter-symbol">$</span>
+              <span class="price-val" id="price-starter-val">19</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="tier-features">
+              <li>✦ 5 Custom AI Agents</li>
+              <li>✦ 100K active tokens / month</li>
+              <li>✦ Core features bento access</li>
+              <li>✦ Standard latency inference</li>
+            </ul>
+            <a href="#" class="btn btn-secondary w-full text-center mt-auto">Get Started</a>
+          </div>
+
+          <div class="pricing-card bg-glass featured">
+            <div class="featured-badge">RECOMMENDED</div>
+            <h3 class="tier-name">Pro Business</h3>
+            <p class="tier-desc">Scale your operation with low-latency and custom database connections.</p>
+            <div class="price-display">
+              <span class="price-symbol" id="price-pro-symbol">$</span>
+              <span class="price-val" id="price-pro-val">49</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="tier-features">
+              <li>✦ Unlimited Custom AI Agents</li>
+              <li>✦ 2M active tokens / month</li>
+              <li>✦ End-to-end telemetry graphs</li>
+              <li>✦ Fast inference speed</li>
+              <li>✦ Custom API integrations</li>
+            </ul>
+            <a href="#" class="btn btn-primary w-full text-center mt-auto">Upgrade to Pro</a>
+          </div>
+
+          <div class="pricing-card bg-glass">
+            <h3 class="tier-name">Enterprise</h3>
+            <p class="tier-desc">Maximum capabilities, custom SLA guarantees, and dedicated servers.</p>
+            <div class="price-display">
+              <span class="price-symbol" id="price-enterprise-symbol">$</span>
+              <span class="price-val" id="price-enterprise-val">99</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="tier-features">
+              <li>✦ Multi-server dedicated deploy</li>
+              <li>✦ Unlimited monthly tokens</li>
+              <li>✦ 24/7 dedicated support team</li>
+              <li>✦ Sub-10ms custom SLA</li>
+              <li>✦ On-prem security options</li>
+            </ul>
+            <a href="#" class="btn btn-secondary w-full text-center mt-auto">Contact Sales</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Value Prop Section - Integrates link.svg -->
+    <section class="value-prop-section">
+      <div class="section-container">
+        <div class="text-center mb-12">
+          <span class="section-subtitle">/// OUR APPROACH</span>
+          <h2 class="section-title">Built for the long term</h2>
+          <p class="section-desc max-w-xl mx-auto">We don't just ship code; we architect neural ecosystems. Our approach combines rigorous testing with rapid deployment cycles.</p>
+        </div>
+
+        <div class="bento-grid-3">
+          <div class="value-card bg-glass">
+            <div class="value-icon">
+              <img src="SVGs/link.svg" alt="Chain link icon" class="svg-icon-sm">
+            </div>
+            <h3 class="value-title">Prime Logic</h3>
+            <p class="value-text">We prioritize high-fidelity model alignment to ensure your agents deliver consistent, reliable, and secure results.</p>
+          </div>
+
+          <div class="value-card bg-glass">
+            <div class="value-icon">
+              <img src="SVGs/link.svg" alt="Chain link icon" class="svg-icon-sm">
+            </div>
+            <h3 class="value-title">Total Clarity</h3>
+            <p class="value-text">Gain full observability into how your data is processed, indexed, and retrieved by your custom AI infrastructure.</p>
+          </div>
+
+          <div class="value-card bg-glass">
+            <div class="value-icon">
+              <img src="SVGs/link.svg" alt="Chain link icon" class="svg-icon-sm">
+            </div>
+            <h3 class="value-title">Fast Cycles</h3>
+            <p class="value-text">Transition from prototype to full scale production in weeks rather than months, using our pre-built robust components.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabs Interface Section (Engineered for Autonomy) -->
+    <section class="autonomy-tabs-section">
+      <div class="section-container">
+        <div class="autonomy-header text-center mb-12">
+          <span class="section-subtitle">/// PRODUCT FEATURES</span>
+          <h2 class="section-title">Engineered for autonomy</h2>
+          <p class="section-desc max-w-xl mx-auto">Go beyond simple chat interfaces. Armory provides the underlying architecture to build, test, and scale enterprise-grade agents.</p>
+          
+          <!-- Tabs Controls -->
+          <div class="tabs-controls bg-glass">
+            <button class="tab-btn" data-tab="discovery">DISCOVERY</button>
+            <button class="tab-btn active" data-tab="analysis">ANALYSIS</button>
+            <button class="tab-btn" data-tab="training">TRAINING</button>
+            <button class="tab-btn" data-tab="deploy">DEPLOY</button>
+          </div>
+        </div>
+
+        <!-- Tab Content Viewport -->
+        <div class="tabs-viewport bg-glass">
+          <div class="tab-content active" id="tab-analysis">
+            <div class="tab-grid">
+              <div class="tab-text-side">
+                <h3>Evaluate agent performance with surgical precision.</h3>
+                <p>Get real-time scoring on accuracy, safety, and contextual relevance. Identify bottleneck nodes instantly to optimize execution speeds.</p>
+                <div class="tab-checklist">
+                  <div class="check-item">✓ Quantify every interaction for total quality.</div>
+                  <div class="check-item">✓ Audit logs are timestamped and immutable.</div>
+                </div>
+              </div>
+              <div class="tab-visual-side">
+                <!-- Mock UI Interface of Score System -->
+                <div class="mock-score-panel">
+                  <div class="panel-header">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                    <span class="title">Agent Performance Analyzer</span>
+                  </div>
+                  <div class="panel-body">
+                    <span class="label">YOUR PERFORMANCE SCORE</span>
+                    <div class="score-grid">
+                      <div class="score-box"><span class="score-num text-highlight">9/10</span><span class="score-lbl">ACCURACY</span></div>
+                      <div class="score-box"><span class="score-num">8/10</span><span class="score-lbl">SAFETY</span></div>
+                      <div class="score-box"><span class="score-num">100%</span><span class="score-lbl">RELEVANCE</span></div>
+                      <div class="score-box"><span class="score-num">8.5</span><span class="score-lbl">OVERALL</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Other tabs placeholders for rich feel -->
+          <div class="tab-content" id="tab-discovery">
+            <div class="tab-grid">
+              <div class="tab-text-side">
+                <h3>Discover database connections automatically.</h3>
+                <p>Armory scans files, databases, and APIs to automatically map schema structures and suggest vector index opportunities.</p>
+              </div>
+              <div class="tab-visual-side">
+                <div class="mock-score-panel">
+                  <div class="panel-body text-center">
+                    <span class="text-highlight">Auto-Scanning Data Lake...</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-content" id="tab-training">
+            <div class="tab-grid">
+              <div class="tab-text-side">
+                <h3>Train models on private organizational data securely.</h3>
+                <p>Fine-tune domain-specific agents without leaking proprietary data back into public base models. Completely sandboxed training runs.</p>
+              </div>
+              <div class="tab-visual-side">
+                <div class="mock-score-panel">
+                  <div class="panel-body text-center">
+                    <span class="text-highlight">Sandboxed fine-tuning active.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab-deploy">
+            <div class="tab-grid">
+              <div class="tab-text-side">
+                <h3>One-click deployment to multiple cloud locations.</h3>
+                <p>Deploy globally to AWS, Google Cloud, or Microsoft Azure with full routing logic and latency isolation systems.</p>
+              </div>
+              <div class="tab-visual-side">
+                <div class="mock-score-panel">
+                  <div class="panel-body text-center">
+                    <span class="text-highlight">Deployed to 14 Edge Nodes.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations Grid -->
+    <section class="integrations-section">
+      <div class="section-container">
+        <div class="text-center mb-12">
+          <span class="section-subtitle">/// INTEGRATIONS</span>
+          <h2 class="section-title">Armory bridges the gap between your data and your tools.</h2>
+          <p class="section-desc max-w-xl mx-auto">Deploy agents that live where you work, from Slack to GitHub and beyond.</p>
+        </div>
+
+        <div class="integrations-grid">
+          <div class="integration-logo bg-glass">AI</div>
+          <div class="integration-logo bg-glass">aws</div>
+          <div class="integration-logo bg-glass">windows</div>
+          <div class="integration-logo bg-glass">bolt</div>
+          <div class="integration-logo bg-glass">figma</div>
+          <div class="integration-logo bg-glass">meta</div>
+          <div class="integration-logo bg-glass">google</div>
+          <div class="integration-logo bg-glass">slack</div>
+          <div class="integration-logo bg-glass">github</div>
+          <div class="integration-logo bg-glass">notion</div>
+          <div class="integration-logo bg-glass">linear</div>
+          <div class="integration-logo bg-glass">vercel</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="section-container">
+        <div class="text-center mb-12">
+          <span class="section-subtitle">/// TESTIMONIALS</span>
+          <h2 class="section-title">Trusted by the pioneers</h2>
+          <p class="section-desc max-w-xl mx-auto">From high-growth startups to enterprise research labs, Armory is the chosen infrastructure for teams building the next era of AI.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card bg-glass">
+            <div class="rating">★★★★★</div>
+            <h3 class="test-title">Infrastructure that finally scales</h3>
+            <p class="test-comment">"The reliability of Armory is unmatched. We've migrated our entire neural pipeline to their edge nodes with zero downtime for our users."</p>
+            <div class="test-author">Vertex Labs</div>
+          </div>
+
+          <div class="testimonial-card bg-glass">
+            <div class="rating">★★★★★</div>
+            <h3 class="test-title">Saved us months of R&D</h3>
+            <p class="test-comment">"Instead of building our own agent logic from scratch, we used Armory. We went from a prototype to a global production launch in weeks."</p>
+            <div class="test-author">FlowState AI</div>
+          </div>
+
+          <div class="testimonial-card bg-glass">
+            <div class="rating">★★★★★</div>
+            <h3 class="test-title">Precision in every inference</h3>
+            <p class="test-comment">"The observability tools allow us to monitor agent accuracy in real-time. It has become a vital part of our model evaluation workflow."</p>
+            <div class="test-author">Neural Sync</div>
+          </div>
+
+          <div class="testimonial-card bg-glass">
+            <div class="rating">★★★★★</div>
+            <h3 class="test-title">Enterprise-grade by default</h3>
+            <p class="test-comment">"The node-based builder is a game changer for our team. Even our non-technical stakeholders can now help map out complex agent behaviors."</p>
+            <div class="test-author">Sentinel Ops</div>
+          </div>
+
+        </div>
+
+        <!-- Secondary running partner logo marquee -->
+        <div class="partner-logos-running mt-16">
+          <div class="marquee-wrapper">
+            <div class="marquee-content marquee-fast">
+              <span class="logo-text-muted">✦ Pharmacy</span>
+              <span class="logo-text-muted">✦ Aetna</span>
+              <span class="logo-text-muted">✦ Cigna</span>
+              <span class="logo-text-muted">✦ Anthem</span>
+              <span class="logo-text-muted">✦ CVS Health</span>
+              <span class="logo-text-muted">✦ United Healthcare</span>
+              <!-- Repeat -->
+              <span class="logo-text-muted">✦ Pharmacy</span>
+              <span class="logo-text-muted">✦ Aetna</span>
+              <span class="logo-text-muted">✦ Cigna</span>
+              <span class="logo-text-muted">✦ Anthem</span>
+              <span class="logo-text-muted">✦ CVS Health</span>
+              <span class="logo-text-muted">✦ United Healthcare</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="articles-section">
+      <div class="section-container">
+        <div class="text-center mb-12">
+          <span class="section-subtitle">/// ARTICLES</span>
+          <h2 class="section-title">Insights on neural logic</h2>
+        </div>
+
+        <div class="bento-grid-3">
+          
+          <div class="article-card bg-glass">
+            <span class="article-date">APR 29, 2026 • 2 MINS READ</span>
+            <h3 class="article-title">What It Takes to Turn AI into a Business Asset</h3>
+            <p class="article-excerpt">Using AI tools is easy. Turning them into something that drives real outcomes across your business requires structure...</p>
+            <a href="#" class="article-btn">Read Article</a>
+          </div>
+
+          <div class="article-card bg-glass">
+            <span class="article-date">APR 29, 2026 • 3 MINS READ</span>
+            <h3 class="article-title">Why Your AI Outputs Feel Inconsistent</h3>
+            <p class="article-excerpt">Understand the key factors causing output variance in large language models, and how structured orchestration mitigates it.</p>
+            <a href="#" class="article-btn">Read Article</a>
+          </div>
+
+          <div class="article-card bg-glass">
+            <span class="article-date">APR 29, 2026 • 2 MINS READ</span>
+            <h3 class="article-title">From Prompting to Systems: The Real Shift in AI</h3>
+            <p class="article-excerpt">Why simple chat loops are fading, and how multi-agent neural architectures are leading the next wave of productivity gains.</p>
+            <a href="#" class="article-btn">Read Article</a>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-12">
+          <button class="btn btn-secondary btn-sm">View Articles</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section - Integrates chevron-up.svg / chevron-down.svg -->
+    <section class="faq-section">
+      <div class="section-container faq-grid">
+        
+        <div class="faq-sidebar">
+          <span class="section-subtitle">/// FAQ</span>
+          <h2 class="section-title">Common inquiries</h2>
+          <p class="section-desc">Everything you need to know about deploying, scaling, and securing your neural agents with Armory. Can't find an answer?</p>
+          <a href="#" class="btn btn-primary btn-sm mt-4">Contact Us</a>
+        </div>
+
+        <div class="faq-accordion-list">
+          
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>What is the Armory platform?</span>
+              <img src="SVGs/chevron-down.svg" alt="Expand icon" class="faq-chevron">
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                <p>Armory is a specialized infrastructure for building and deploying custom AI agents. We provide the neural logic and edge nodes required to run autonomous workflows at enterprise scale.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>Who is this template designed for?</span>
+              <img src="SVGs/chevron-down.svg" alt="Expand icon" class="faq-chevron">
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                <p>This is designed for startups, development teams, and enterprise product squads seeking to integrate multi-agent AI features without starting from scratch.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>Does Armory provide pre-built agents?</span>
+              <img src="SVGs/chevron-down.svg" alt="Expand icon" class="faq-chevron">
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                <p>Yes, we offer base agent configurations for common tasks (data parsing, code generation, API sync). You can fine-tune and connect these to fit your pipelines.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" aria-expanded="false">
+              <span>How does it differ from a standard chatbot?</span>
+              <img src="SVGs/chevron-down.svg" alt="Expand icon" class="faq-chevron">
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                <p>Chatbots are static question-answer blocks. Armory agents are proactive; they execute multi-step tools, read system states, query APIs, and handle failures in the background.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Subscription Newsletter CTA -->
+    <section class="newsletter-section">
+      <div class="section-container text-center">
+        <span class="section-subtitle">/// GET STARTED</span>
+        <h2 class="section-title">Get smarter about AI systems</h2>
+        <p class="section-desc max-w-md mx-auto mb-8">Weekly insights on automation, AI workflows, and real builds. No fluff, just what works.</p>
+        
+        <form class="newsletter-form bg-glass" id="subscribe-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+          <input type="email" placeholder="jane@framer.com" required class="email-input bg-glass" aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Floating Back to Top Button - Integrates chevron-up-solid.svg / chevron-up.svg -->
+  <button id="back-to-top" class="back-to-top bg-glass" aria-label="Scroll back to top">
+    <img src="SVGs/chevron-up-solid.svg" alt="Up arrow icon" class="svg-icon-sm">
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="section-container footer-grid">
+      
+      <div class="footer-brand-side">
+        <a href="#" class="logo mb-4">
+          <svg class="bolt-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+          <span class="logo-text">armory</span>
+        </a>
+        <p class="brand-sub">Deploy custom enterprise agents and automate complex workflows. Scale your intelligence with Armory today.</p>
+      </div>
+
+      <div class="footer-links-side">
+        
+        <div class="links-column">
+          <h4>QUICK LINKS</h4>
+          <a href="#">Home</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#workflow">Projects</a>
+          <a href="#">Articles</a>
+        </div>
+
+        <div class="links-column">
+          <h4>COMPANY</h4>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Book A Call</a>
+          <a href="#">More Templates</a>
+        </div>
+
+        <div class="links-column">
+          <h4>POLICIES</h4>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <div class="social-links-footer mt-4">
+            <span class="soc-icon">𝕏</span>
+            <span class="soc-icon">🎮</span>
+            <span class="soc-icon">🎥</span>
+            <span class="soc-icon">📸</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Giant brand font footer display -->
+    <div class="footer-giant-bg text-center">
+      armory
+    </div>
+
+    <div class="footer-bottom text-center">
+      <p>&copy; 2026 Armory AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script file -->
+  <script src="script.js"></script>
+</body>
+</html>
